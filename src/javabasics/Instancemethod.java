@@ -8,7 +8,7 @@ class Student{
 		
 	//Grade of the student
 		public void grade(double grade) {
-			System.out.println(String.format("Student grade is : %s" , grade));
+			System.out.println(String.format("Student grade is : %.2f" , grade));
 		}
 	}
 
@@ -19,7 +19,7 @@ public class Instancemethod {
 	student1.name("abc");
 	student1.grade(5.23);
 	
-	
+	// Create student2 object
 	Student student2 = new Student();
 	student2.name("sarika");
 	student2.grade(9.22);
